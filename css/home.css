@@ -18,6 +18,7 @@ body{
 .logotype{
 	font-size: 20px;
 	font-weight: 250;
+	line-height: 25px;
 }
 
 .logotype .M{
@@ -159,6 +160,7 @@ body{
         display: block;
         font-size: 20px;
         font-weight: 250;
+	line-height: 25px;
     }
     .logotype{
         display: none;
