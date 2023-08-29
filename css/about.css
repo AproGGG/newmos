@@ -43,7 +43,6 @@ body{
 }
 
 .navbar{
-    box-sizing: content-box;
     width: 100%;
     height: 60px;
     position: fixed;
