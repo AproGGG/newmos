@@ -34,8 +34,14 @@ body{
 	color: cadetblue;
 	font-weight: 450;
 }
+.navbar-mobile{
+    display: none;
+}
+.navbar-desktop{
+    display: block;
+}
 
-.navbar{
+.navbar-desktop{
     width: 100%;
     height: 60px;
     position: fixed;
@@ -144,5 +150,11 @@ body{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 80px;
+    }
+    .navbar-mobile{
+        display: block;
+    }
+    .navbar-desktop{
+        display: none;
     }
 }
