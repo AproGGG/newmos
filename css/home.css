@@ -16,6 +16,7 @@ body{
 }
 
 .logotype{
+	box-sizing: content-box;
 	font-size: 20px;
 	font-weight: 250;
 }
@@ -40,6 +41,7 @@ body{
 }
 
 .navbar{
+    box-sizing: content-box;
     width: 100%;
     height: 60px;
     position: fixed;
