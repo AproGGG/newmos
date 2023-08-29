@@ -18,7 +18,7 @@ const createBlog = (blog) => {
     }
 
     blogSection.innerHTML += `
-    <div class="blog-card" style="width: 600px">
+    <div class="blog-card" style="width: 40%">
         <img src="${data.bannerImage}" class="blog-image" alt="">
         <h1 class="blog-title" style="word-wrap: break-word">${data.title.substring(0, 60)}</h1>
         <p class="blog-overview" style="word-wrap: break-word">${data.article.substring(0, 100) + '...'}</p>
