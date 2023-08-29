@@ -34,14 +34,12 @@ body{
 	color: cadetblue;
 	font-weight: 450;
 }
-.navbar-mobile{
+
+.logotype-mobile{
     display: none;
 }
-.navbar-desktop{
-    display: block;
-}
 
-.navbar-desktop{
+.navbar{
     width: 100%;
     height: 60px;
     position: fixed;
@@ -137,7 +135,6 @@ body{
     background: #1b1b1b;
     color: #fff;
 }
-
 @media screen and (max-width: 600px){
     .heading{
         color: #fff;
@@ -151,21 +148,10 @@ body{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 80px;
     }
-    .navbar-mobile{
+    .logotype-mobile{
         display: block;
-        width: 100%;
-        height: 60px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 5vw;
-        background: #fff;
-        z-index: 9;
     }
-    .navbar-desktop{
+    .logotype{
         display: none;
     }
 }
