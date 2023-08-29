@@ -93,6 +93,7 @@ body{
         display: block;
         font-size: 20px;
         font-weight: 250;
+	box-sizing: content-box;
     }
     .logotype{
         display: none;
