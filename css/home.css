@@ -156,6 +156,7 @@ body{
     .links-container{
         display: flex;
         flex-direction: column;
+	list-style: none;
     }
     .logotype{
         display: none;
