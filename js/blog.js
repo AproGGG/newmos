@@ -74,7 +74,7 @@ const addArticle = (ele, data) => {
         }
 
         else{
-            ele.innerHTML += `<p>${item}</p>`;
+            ele.innerHTML += `<p class="paragraph">${item}</p>`;
         }
     })
 }
