@@ -90,6 +90,13 @@ body{
     margin-bottom: 80px;
 }
 
+.link-item{
+    display: block;
+}
+.link-item-mob{
+    display: none;
+}
+
 .heading .small{
     display: block;
     font-size: 40px;
@@ -160,6 +167,12 @@ body{
     }
     .logotype{
         display: none;
+    }
+    .link-item{
+        display: none;
+    }
+    .link-item-mob{
+        display: block;
     }
 }
 
