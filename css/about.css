@@ -74,3 +74,19 @@ body{
     text-transform: capitalize;
     color: #000;
 }
+@media screen and (max-width: 600px){
+    .logotype-mobile{
+        display: block;
+        font-size: 20px;
+        font-weight: 250;
+    }
+    .logotype{
+        display: none;
+    }
+    .link-item{
+        display: none;
+    }
+    .link-item-mob{
+        display: block;
+    }
+}
