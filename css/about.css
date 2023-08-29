@@ -27,66 +27,6 @@ body{
 	color: #fff;
 }
 
-.logotype{
-	display: block;
-	font-size: 20px;
-	font-weight: 250;
-}
-
-.logotype .M{
-	color: royalblue;
-	font-weight: 450;
-}
-
-.logotype .O{
-	color: darkorange;
-	font-weight: 450;
-}
-
-.logotype .S{
-	color: cadetblue;
-	font-weight: 450;
-}
-
-.navbar{
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #fff;
-    z-index: 9;
-    padding: 0 5vw;
-}
-
-.links-container{
-    display: flex;
-    list-style: none;
-}
-
-.link{
-    padding: 10px;
-    margin-left: 10px;
-    text-decoration: none;
-    font-weight: 250;
-    font-size: 18px;
-    text-transform: capitalize;
-    color: #000;
-}
-
-.logotype-mobile{
-    display: none;
-}
-.link-item{
-    display: block;
-}
-.link-item-mob{
-    display: none;
-}
-
 @media screen and (max-width: 600px){
     .logotype-mobile{
         display: block;
