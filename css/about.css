@@ -33,6 +33,7 @@ body{
 }
 
 .logotype .M{
+	display: block;
 	color: royalblue;
 	font-weight: 450;
 }
@@ -75,6 +76,17 @@ body{
     text-transform: capitalize;
     color: #000;
 }
+
+.logotype-mobile{
+    display: none;
+}
+.link-item{
+    display: block;
+}
+.link-item-mob{
+    display: none;
+}
+
 @media screen and (max-width: 600px){
     .logotype-mobile{
         display: block;
