@@ -74,12 +74,7 @@ const addArticle = (ele, data) => {
         }
 
         else{
-            console.log(navigator.maxTouchPoints);
-            if(navigator.maxTouchPoints==1){
-                ele.innerHTML += `<p>${item}</p>`;
-            } else {
-                ele.innerHTML += `<p style="font-size: 16px;">${item}</p>`;
-            }
+            ele.innerHTML += `<p>${item}</p>`;   
         }
     })
 }
