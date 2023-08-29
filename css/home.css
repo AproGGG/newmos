@@ -50,6 +50,7 @@ body{
     align-items: center;
     background: #fff;
     z-index: 9;
+    padding: 0 5vw;
 }
 
 .links-container{
