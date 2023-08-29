@@ -15,6 +15,13 @@ body{
 	font-weight: 250;
 }
 
+.link-item{
+    display: block;
+}
+.link-item-mob{
+    display: none;
+}
+
 .logotype .M{
 	color: royalblue;
 	font-weight: 450;
