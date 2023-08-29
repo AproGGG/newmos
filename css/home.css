@@ -150,6 +150,8 @@ body{
     }
     .logotype-mobile{
         display: block;
+        font-size: 20px;
+        font-weight: 250;
     }
     .logotype{
         display: none;
