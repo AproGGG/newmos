@@ -52,9 +52,9 @@ p {word-wrap: break-word}
 
 @media screen and (max-width: 600px){
     .published{
-        font-size: 16px;
+        font-size: 18px;
     }
     .title{
-        font-size: 22px;
+        font-size: 30px;
     }
 }
