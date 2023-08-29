@@ -51,6 +51,9 @@ p {word-wrap: break-word}
 }
 
 @media screen and (max-width: 600px){
+    .paragraph{
+        font-size: 16px;
+    }
     .published{
         font-size: 18px;
     }
