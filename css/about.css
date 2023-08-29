@@ -28,12 +28,12 @@ body{
 }
 
 .logotype{
+	display: block;
 	font-size: 20px;
 	font-weight: 250;
 }
 
 .logotype .M{
-	display: block;
 	color: royalblue;
 	font-weight: 450;
 }
