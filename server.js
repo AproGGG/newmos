@@ -24,6 +24,10 @@ app.get("/cat", (req, res) => {
     res.sendFile(path.join(initial_path, "cat.html"));
 })
 
+app.get("/quorum", (req, res) => {
+    res.sendFile(path.join(initial_path, "quorum.html"));
+})
+
 app.get("/:blog", (req, res) => {
     res.sendFile(path.join(initial_path, "blog.html"));
 })
