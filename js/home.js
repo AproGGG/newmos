@@ -15,6 +15,8 @@ const createBlog = (blog) => {
         name = "cat";
     } else if (blog.id=="Quorum-sensing-ggxh"){
         name = "quorum";
+    } else if (blog.id=="The-truth-behind-LK-99-iggl"){
+        name = "lk";
     } else {
         name = blog.id;
     }
