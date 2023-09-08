@@ -28,6 +28,11 @@ app.get("/quorum", (req, res) => {
     res.sendFile(path.join(initial_path, "quorum.html"));
 })
 
+app.get("/lk", (req, res) => {
+    res.sendFile(path.join(initial_path, "lk.html"));
+})
+
+
 app.get("/:blog", (req, res) => {
     res.sendFile(path.join(initial_path, "blog.html"));
 })
