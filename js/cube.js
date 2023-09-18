@@ -1,4 +1,4 @@
-let blogId = ``
+let blogId = `More-about-the-Rubik's-cube-name-wqtg`
 
 let docRef = db.collection("blogs").doc(blogId);
 
