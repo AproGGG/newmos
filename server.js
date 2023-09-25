@@ -36,6 +36,9 @@ app.get("/lk", (req, res) => {
     res.sendFile(path.join(initial_path, "lk.html"));
 })
 
+app.get("/time", (req, res) => {
+    res.sendFile(path.join(initial_path, "time.html"));
+})
 
 app.get("/:blog", (req, res) => {
     res.sendFile(path.join(initial_path, "blog.html"));
