@@ -19,6 +19,8 @@ const createBlog = (blog) => {
         name = "lk";
     } else if (blog.id=="More-about-the-Rubik's-cube-name-wqtg"){
         name="cube";
+    } else if (blog.id=="Time-Dilation-and-Theory-of-Relativity-yciw"){
+        name="time";
     } else {
         name = blog.id;
     }
