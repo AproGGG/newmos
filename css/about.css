@@ -97,7 +97,7 @@ body{
 
 .what{
     color: white;
-    padding-bottom: 3px;
+    padding-bottom: 15px;
     margin-top: 500px;
 }
 
@@ -159,7 +159,7 @@ body{
     .is{
         font-size: 18px;}
     .what{
-        margin-top: 1000px;
+        margin-top: 1200px;
     }
     .images{
         display: grid;
