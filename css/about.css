@@ -155,5 +155,9 @@ body{
     font-size: 45px;
     color: #fff;
     }
-    
+    .what{
+    color: white;
+    padding-bottom: 3px;
+    margin-top: 500px;
+    }
 }
