@@ -21,6 +21,8 @@ const createBlog = (blog) => {
         name="cube";
     } else if (blog.id=="Time-Dilation-and-Theory-of-Relativity-yciw"){
         name="time";
+    } else if (blog.id=="The-history-of-Roman-Empire-gmcy"){
+        name="roman";
     } else {
         name = blog.id;
     }
