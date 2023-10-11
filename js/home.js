@@ -23,7 +23,7 @@ const createBlog = (blog) => {
         name="time";
     } else if (blog.id=="The-history-of-Roman-Empire-gmcy"){
         name="roman";
-    } else if (blog.id=="The-Internet-of-Things-(IoT)-bzmc"){
+    } else if (blog.id=="The-Internet-of-Things-(IoT)-nhbz"){
         name="iot";
     } else {
         name = blog.id;
