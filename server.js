@@ -20,6 +20,10 @@ app.get("/about", (req, res) => {
     res.sendFile(path.join(initial_path, "about.html"));
 })
 
+app.get("/hadron", (req, res) => {
+    res.sendFile(path.join(initial_path, "hadron.html"));
+})
+
 app.get("/cat", (req, res) => {
     res.sendFile(path.join(initial_path, "cat.html"));
 })
