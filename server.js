@@ -40,6 +40,9 @@ app.get("/roman", (req, res) => {
     res.sendFile(path.join(initial_path, "roman.html"));
 })
 
+app.get("/iot", (req, res) => {
+    res.sendFile(path.join(initial_path, "iot.html"));
+})
 
 app.get("/time", (req, res) => {
     res.sendFile(path.join(initial_path, "time.html"));
