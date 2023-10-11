@@ -1,4 +1,4 @@
-let blogId = `The-Internet-of-Things-(IoT)-bzmc`
+let blogId = `The-Internet-of-Things-(IoT)-nhbz`
 
 let docRef = db.collection("blogs").doc(blogId);
 
