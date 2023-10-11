@@ -25,6 +25,8 @@ const createBlog = (blog) => {
         name="roman";
     } else if (blog.id=="The-Internet-of-Things-(IoT)-nhbz"){
         name="iot";
+    } else if (blog.id=="The-Large-Hadron-Collider-Explained-llyz"){
+        name="hadron";
     } else {
         name = blog.id;
     }
