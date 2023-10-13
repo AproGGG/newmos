@@ -33,7 +33,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-width: 100%;
-    height: calc(100vh - 260px);
+    height: calc(100vh - 780px);
     justify-content: center; 
     align-items: center;
     margin: 0 auto;
