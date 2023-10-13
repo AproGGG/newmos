@@ -17,6 +17,18 @@ body{
     font-weight: 250;
 }
 
+.imagez{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 3vw;
+    max-width: 50%;
+    justify-content: center; 
+    align-items: center;
+    margin: 0 auto;
+    row-gap: 50px;
+}
+
+
 .images{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -97,13 +109,12 @@ body{
 
 .what{
     color: white;
-    padding-bottom: 15px;
-    margin-top: 500px;
+    padding-bottom: 3px;
+    margin-top: 300px;
 }
 
 .is{
     color: #d4d3d2;
-    font-size: 20px;
 }
 
 .team{
@@ -156,14 +167,10 @@ body{
     font-size: 45px;
     color: #fff;
     }
-    .is{
-        font-size: 18px;}
     .what{
-        margin-top: 1300px;
+    color: white;
+    padding-bottom: 3px;
+    margin-top: 500px;
     }
-    .images{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .farid{
-        width: 400px;}
+    
+}
