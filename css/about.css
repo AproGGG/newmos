@@ -33,7 +33,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-width: 100%;
-    height: calc(100vh - 780px);
+    height: calc(100vh - 1080px);
     justify-content: center; 
     align-items: center;
     margin: 0 auto;
@@ -110,11 +110,13 @@ body{
 .what{
     color: white;
     padding-bottom: 3px;
-    margin-top: 300px;
+    margin-top: 340px;
 }
 
 .is{
     color: #d4d3d2;
+    font-size: 20px;
+    padding: 0 5vw;
 }
 
 .team{
@@ -170,7 +172,15 @@ body{
     .what{
     color: white;
     padding-bottom: 3px;
-    margin-top: 500px;
+    margin-top: 1100px;
     }
-    
+    .images{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 100%;
+    justify-content: center; 
+    align-items: center;
+    margin: 0 auto;
+    row-gap: 50px;
+    }
 }
