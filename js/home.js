@@ -17,6 +17,8 @@ const createBlog = (blog) => {
         name = "quorum";
     } else if (blog.id=="The-truth-behind-LK-99-iggl"){
         name = "lk";
+    } else if (blog.id=="Neurotransmitters-and-how-they-are-affected-by-drugs-and-technology-lmgc"){
+        name = "neurotransmitters";
     } else if (blog.id=="More-about-the-Rubik's-cube-name-wqtg"){
         name="cube";
     } else if (blog.id=="Time-Dilation-and-Theory-of-Relativity-yciw"){
