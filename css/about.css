@@ -170,6 +170,7 @@ body{
     }
     .is{
         padding: 0;
+        font-size: 16px;
     }
     .link-item-mob{
         display: block;
@@ -177,7 +178,7 @@ body{
     .what{
         padding: 0;
         color: white;
-        margin-top: 1700px;
+        margin-top: 1500px;
     }
     .images{
         display: grid;
