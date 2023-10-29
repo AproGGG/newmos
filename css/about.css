@@ -168,6 +168,9 @@ body{
     .link-item{
         display: none;
     }
+    .is{
+        padding: 0;
+    }
     .link-item-mob{
         display: block;
     }
