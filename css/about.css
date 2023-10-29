@@ -157,7 +157,7 @@ body{
         display: block;
         font-size: 20px;
         font-weight: 250;
-    box-sizing: content-box;
+        box-sizing: content-box;
     }
     .logotype{
         display: none;
@@ -168,24 +168,18 @@ body{
     .link-item-mob{
         display: block;
     }
-    .coming{
-    top: 50%;
-        left: 50%;
-    font-size: 45px;
-    color: #fff;
-    }
     .what{
-    color: white;
-    padding-bottom: 3px;
-    margin-top: 1400px;
+        padding: 0;
+        color: white;
+        margin-top: 1400px;
     }
     .images{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    max-width: 100%;
-    justify-content: center; 
-    align-items: center;
-    margin: 0 auto;
-    row-gap: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 100%;
+        justify-content: center; 
+        align-items: center;
+        margin: 0 auto;
+        row-gap: 50px;
     }
 }
