@@ -29,6 +29,10 @@ const createBlog = (blog) => {
         name="iot";
     } else if (blog.id=="The-Large-Hadron-Collider-Explained-llyz"){
         name="hadron";
+    } else if (blog.id=="10-scientific-paradoxes-and-their-solutions-mnvr"){
+        name="paradox";
+    } else if (blog.id=="What-are-Quantum-Computers?-rtgd"){
+        name="quantum";
     } else {
         name = blog.id;
     }
