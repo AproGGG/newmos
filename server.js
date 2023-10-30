@@ -24,6 +24,14 @@ app.get("/neurotransmitters", (req, res) => {
     res.sendFile(path.join(initial_path, "neurotransmitters.html"));
 })
 
+app.get("/paradox", (req, res) => {
+    res.sendFile(path.join(initial_path, "paradox.html"));
+})
+
+app.get("/quantum", (req, res) => {
+    res.sendFile(path.join(initial_path, "qunatum.html"));
+})
+
 app.get("/hadron", (req, res) => {
     res.sendFile(path.join(initial_path, "hadron.html"));
 })
