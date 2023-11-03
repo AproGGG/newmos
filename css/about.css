@@ -29,12 +29,12 @@ body{
 .contact{
     margin-top: 5px;
     font-size: 16px;
-    color: #fff;
+    color: #0d1e2a;
 }
 
 .footer {
     text-align: center;
-    color: #fff;
+    color: #0d1e2a;
     align-items: center;
     display: flex;
     flex-direction: column;
