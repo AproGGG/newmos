@@ -31,9 +31,11 @@ const createBlog = (blog) => {
         name="hadron";
     } else if (blog.id=="10-scientific-paradoxes-and-their-solutions-mnvr"){
         name="paradox";
+    } else if (blog.id=="All-the-perspectives-on-the-structure-and-future-of-graphene-wdwy"){
+        name="graphene";
     } else if (blog.id=="What-are-Quantum-Computers?-rtgd"){
         name="quantum";
-    } else {
+    else {
         name = blog.id;
     }
 
