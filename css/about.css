@@ -16,41 +16,6 @@ body{
     color: #fff;
 }
 
-.copyright{
-    margin-bottom: 10px;
-}
-
-.contacttitle{
-    margin-top: 15px;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.contact{
-    margin-top: 5px;
-    font-size: 16px;
-    color: #0d1e2a;
-}
-
-.footer {
-    text-align: center;
-    color: #0d1e2a;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: 60px;
-    background-color: #fff;
-}
-
-.footer-div{
-    padding:  0 5vw;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-
 .logotype{
     box-sizing: content-box;
     font-size: 20px;
