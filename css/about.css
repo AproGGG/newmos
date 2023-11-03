@@ -1,27 +1,24 @@
-v*{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     width: 100%;
     position: relative;
     font-family: 'poppins', sans-serif;
     background: #0d1e2a;
 }
-
 ::selection{
     background: #1b1b1b;
-    color: #fff;
-}
+     color: #fff;
+ }
 
-.logotype{
-    box-sizing: content-box;
-    font-size: 20px;
+ .logotype{
+     box-sizing: content-box;
+     font-size: 20px;
     font-weight: 250;
 }
-
 .imagez{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -32,8 +29,6 @@ body{
     margin: 0 auto;
     row-gap: 50px;
 }
-
-
 .images{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -44,35 +39,29 @@ body{
     margin: 0 auto;
     row-gap: 50px;
 }
-
 .link-item{
     display: block;
 }
 .link-item-mob{
     display: none;
 }
-
 .logotype .M{
     color: royalblue;
     font-weight: 450;
 }
-
 .logotype .O{
     color: darkorange;
     font-weight: 450;
 }
-
 .logotype .S{
     color: cadetblue;
     font-weight: 450;
 }
-
 .logotype-mobile{
     display: none;
 }
-
 .navbar{
-    width: 100vw;
+    width: 100%;
     height: 60px;
     position: fixed;
     top: 0;
@@ -84,12 +73,10 @@ body{
     z-index: 9;
     padding: 0 5vw;
 }
-
 .links-container{
     display: flex;
     list-style: none;
 }
-
 .link{
     padding: 10px;
     margin-left: 10px;
@@ -99,7 +86,6 @@ body{
     text-transform: capitalize;
     color: #000;
 }
-
 .soon{
     margin-top: 70px;
     background: #0d1e2a;
@@ -111,31 +97,26 @@ body{
     align-items: center;
     flex-direction: column;
 }
-
 .what{
     color: white;
     padding-bottom: 3px;
     margin-top: 340px;
 }
-
 .is{
     color: #d4d3d2;
     font-size: 20px;
     padding: 0 5vw;
 }
-
 .team{
     color: white;
     padding-top: 20px;
     margin-bottom: 20px;
 }
-
 .face{
     margin-bottom: 7px;
     max-width: 80%;
     border: 3px solid white; 
 }
-
 .farid{
     color: white;
     width: 500px;
@@ -144,14 +125,12 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .coming{
     top: 50%;
     left: 50%;
     font-size: 85px;
     color: #fff;
 }
-
 @media screen and (max-width: 600px){
     .logotype-mobile{
         display: block;
