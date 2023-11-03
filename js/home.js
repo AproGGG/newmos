@@ -35,7 +35,7 @@ const createBlog = (blog) => {
         name="graphene";
     } else if (blog.id=="What-are-Quantum-Computers?-rtgd"){
         name="quantum";
-    else {
+    } else {
         name = blog.id;
     }
 
