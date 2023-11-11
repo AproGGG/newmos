@@ -34,7 +34,7 @@ const createBlog = (blog) => {
     } else if (blog.id=="All-the-perspectives-on-the-structure-and-future-of-graphene-wdwy"){
         name="graphene";
     } else if (blog.id=="Bias-in-Artificial-Intelligence-msoh"){
-        name="ai";
+        name="ai.html";
     } else if (blog.id=="What-are-Quantum-Computers?-rtgd"){
         name="quantum";
     } else {
@@ -46,7 +46,7 @@ const createBlog = (blog) => {
         <img src="${data.bannerImage}" class="blog-image" alt="">
         <h1 class="blog-title" style="word-wrap: break-word">${data.title.substring(0, 60)}</h1>
         <p class="blog-overview" style="word-wrap: break-word">${data.article.substring(0, 100) + '...'}</p>
-        <a href="/${name}.html" class="btn dark">read</a>
+        <a href="/${name}" class="btn dark">read</a>
     </div>
     `;
 }
