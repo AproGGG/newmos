@@ -33,6 +33,8 @@ const createBlog = (blog) => {
         name="paradox";
     } else if (blog.id=="All-the-perspectives-on-the-structure-and-future-of-graphene-wdwy"){
         name="graphene";
+    } else if (blog.id=="Bias-in-Artificial-Intelligence-msoh"){
+        name="ai";
     } else if (blog.id=="What-are-Quantum-Computers?-rtgd"){
         name="quantum";
     } else {
