@@ -20,6 +20,11 @@ app.get("/about", (req, res) => {
     res.sendFile(path.join(initial_path, "about.html"));
 })
 
+app.get("/ai", (req, res) => {
+    res.sendFile(path.join(initial_path, "ai.html"));
+})
+
+
 app.get("/neurotransmitters", (req, res) => {
     res.sendFile(path.join(initial_path, "neurotransmitters.html"));
 })
