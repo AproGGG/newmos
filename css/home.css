@@ -15,6 +15,39 @@ body{
     color: #fff;
 }
 
+.categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.catgories{
+    width: 100%;
+    height: 500px;
+}
+
+.blogs-section{
+    min-height: 100vh;
+}
+
+.category img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.category{
+    padding: 15px 15px;
+    width: 100%;
+    height: 200px;
+}
+
+.category.biology{
+    background-image: url('../img/biology.png');
+}
+
 .footer-div{
     padding:  0 5vw;
     width: 100%;
@@ -52,24 +85,24 @@ body{
 
 
 .logotype{
-	box-sizing: content-box;
-	font-size: 20px;
-	font-weight: 250;
+    box-sizing: content-box;
+    font-size: 20px;
+    font-weight: 250;
 }
 
 .logotype .M{
-	color: royalblue;
-	font-weight: 450;
+    color: royalblue;
+    font-weight: 450;
 }
 
 .logotype .O{
-	color: darkorange;
-	font-weight: 450;
+    color: darkorange;
+    font-weight: 450;
 }
 
 .logotype .S{
-	color: cadetblue;
-	font-weight: 450;
+    color: cadetblue;
+    font-weight: 450;
 }
 
 .logotype-mobile{
@@ -194,7 +227,7 @@ body{
     }
     .logotype-mobile{
         display: block;
-	box-sizing: content-box;
+    box-sizing: content-box;
         font-size: 20px;
         font-weight: 250;
     }
@@ -208,4 +241,3 @@ body{
         display: block;
     }
 }
-
