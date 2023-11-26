@@ -232,6 +232,9 @@ body{
         font-size: 20px;
         font-weight: 250;
     }
+    .blog-card{
+        width: 300px;
+    }
     .logotype{
         display: none;
     }
