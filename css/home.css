@@ -20,7 +20,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
 }
 
 .catgories{
@@ -30,6 +29,7 @@ body{
 
 .blogs-section{
     min-height: 100vh;
+    margin-top: 60px;
 }
 
 .category img {
