@@ -39,6 +39,8 @@ const createBlog = (blog) => {
         name="ai.html";
     } else if (blog.id=="What-are-Quantum-Computers?-rtgd"){
         name="quantum";
+    } else if (blog.id=="Overview-of-Dark-Matter-icmm"){
+        name="dark.html";
     } else {
         name = blog.id;
     }
