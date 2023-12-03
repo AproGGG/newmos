@@ -23,6 +23,8 @@ const createBlog = (blog) => {
         name = "neurotransmitters";
     } else if (blog.id=="More-about-the-Rubik's-cube-name-wqtg"){
         name="cube";
+    } else if (blog.id=="The-View-on-Different-Dimensions-wjhc"){
+        name="dimensions.html";
     } else if (blog.id=="Time-Dilation-and-Theory-of-Relativity-yciw"){
         name="time";
     } else if (blog.id=="The-history-of-Roman-Empire-gmcy"){
