@@ -11,8 +11,8 @@ db.collection("blogs").get().then((blogs) => {
 const createBlog = (blog) => {
     let data = blog.data();
 
-    if(blog.id=="Schrodinger's-cat-experiment-ankm"){
-        name = "cat";
+    if(blog.id=="What-can-be-called-Evolution-gtzp"){
+        name = "evo.html";
     } else if (blog.id=="Quorum-sensing-ggxh"){
         name = "quorum";
     } else if (blog.id=="Overview-on-the-usage-and-benefits-of-electric-cars-wnso"){
