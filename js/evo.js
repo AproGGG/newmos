@@ -1,4 +1,4 @@
-let blogId = `What-can-be-called-Evolution-gtzp`
+let blogId = `What-can-be-called-Evolution-gtzp`;
 
 let docRef = db.collection("blogs").doc(blogId);
 
