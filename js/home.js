@@ -19,6 +19,8 @@ const createBlog = (blog) => {
         name = "quorum";
     } else if (blog.id=="Overview-on-the-usage-and-benefits-of-electric-cars-wnso"){
         name = "ev.html";
+    } else if (blog.id=="Use-of-Chemistry-in-Food-Production--hzsp"){
+        name = "chemm.html";
     } else if (blog.id=="The-truth-behind-LK-99-iggl"){
         name = "lk";
     } else if (blog.id=="Neurotransmitters-and-how-they-are-affected-by-drugs-and-technology-lmgc"){
