@@ -12,7 +12,8 @@ const createBlog = (blog) => {
     let data = blog.data();
 
     console.log(data.subject);
-
+    console.log(blog.id);
+    
     if(blog.id=="Schrodinger's-cat-experiment-ankm"){
         name = "cat";
     } else if (blog.id=="Quorum-sensing-ggxh"){
