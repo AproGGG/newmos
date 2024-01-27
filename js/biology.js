@@ -19,6 +19,8 @@ const createBlog = (blog) => {
         name = "ev.html";
     } else if (blog.id=="The-truth-behind-LK-99-iggl"){
         name = "lk";
+    } else if (blog.id=="Significance-of-Sustainability-fdjv"){
+        name = "sus.html";
     } else if (blog.id=="Neurotransmitters-and-how-they-are-affected-by-drugs-and-technology-lmgc"){
         name = "neurotransmitters";
     } else if (blog.id=="More-about-the-Rubik's-cube-name-wqtg"){
