@@ -1,4 +1,4 @@
-let blogId = `Bias-in-Artificial-Intelligence-msoh`
+let blogId = `Significance-of-Sustainability-fdjv`
 
 let docRef = db.collection("blogs").doc(blogId);
 
